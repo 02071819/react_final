@@ -11,7 +11,7 @@ function Home() {
                 <br />
                 <br />
                 <br />
-                <h1>ADVENTURE AWAITS</h1>
+                <h1>看見台灣從台東開始</h1>
                 <p>What are you waiting for?</p>
                 <Button size="large" type="button" variant="contained" color="primary">GET STARTED</Button>
             </div>
