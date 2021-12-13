@@ -42,7 +42,7 @@ const Navbar = ({ totalItems }) => {
                     </div>
                     <ul className={click ? 'nav-menu active' : 'nav-menu'}>
                         <li className='nav-item'>
-                            <Typography component={Link} to="/" className='nav-links' onClick={closeMobileMenu}>
+                            <Typography component={Link} to="/products" className='nav-links' onClick={closeMobileMenu}>
                                 Products
                             </Typography>
                         </li> 
