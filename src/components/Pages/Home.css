@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap');
+
 .section-container {
-    background: url('/src/assets/img-home.jpg') ;
+    background: url('/src/assets/台東headpic.jfif') ;
     height: 100vh;
     width: 100%;
     display: flex;
