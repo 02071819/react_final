@@ -7,45 +7,39 @@ function Footer() {
         <div className='footer-container'>
             <section className='footer-subscription'>
                 <p className='footer-subscription-heading'>
-                    Join the Adventure newsletter to receive our best vacation deals
+                來台東一趟，各種房型滿足您的需求。
                 </p>
                 <p className='footer-subscription-text'>
-                    You can unsubscribe at any time.
+                如有問題歡迎撥打電話詢問
                 </p>
             </section>
             <div class='footer-links'>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>About Us</h2>
-                        <Link to='/sign-up'>How it works</Link>
-                        <Link to='/'>Testimonials</Link>
-                        <Link to='/'>Careers</Link>
-                        <Link to='/'>Investors</Link>
-                        <Link to='/'>Terms of Service</Link>
+                        <h2>關於我們</h2>
+                        <Link to='/sign-up'>預定流程</Link>
+                        <Link to='/'>預定須知</Link>
+                        <Link to='/'>品牌故事</Link>
+                        
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Contact Us</h2>
-                        <Link to='/'>Contact</Link>
-                        <Link to='/'>Support</Link>
-                        <Link to='/'>Destinations</Link>
-                        <Link to='/'>Sponsorships</Link>
+                        <h2>聯絡我們</h2>
+                        <Link to='/'>聯絡方式</Link>
+                        <Link to='/'>贊助商</Link>
                     </div>
                 </div>
                 <div className='footer-link-wrapper'>
                     <div class='footer-link-items'>
-                        <h2>Videos</h2>
-                        <Link to='/'>Submit Video</Link>
-                        <Link to='/'>Ambassadors</Link>
-                        <Link to='/'>Agency</Link>
-                        <Link to='/'>Influencer</Link>
+                        <h2>相簿</h2>
+                        <Link to='/'>房間照片</Link>
+                        <Link to='/'>風景照片</Link>   
                     </div>
                     <div class='footer-link-items'>
-                        <h2>Social Media</h2>
-                        <Link to='/'>Instagram</Link>
-                        <Link to='/'>Facebook</Link>
-                        <Link to='/'>Youtube</Link>
-                        <Link to='/'>Twitter</Link>
+                        <h2>服務資訊</h2>
+                        <Link to='/'>服務時間：8:00-17:00</Link>
+                        <Link to='/'>客服專線：02-2423-3432</Link>   
                     </div>
+                    
                 </div>
             </div>
 
@@ -53,10 +47,10 @@ function Footer() {
                 <div class='social-media-wrap'>
                     <div class='footer-logo'>
                         <Link to='/' className='social-logo'>
-                            Commerce.js
+                            台東縣政府贊助
                         </Link>
                     </div>
-                    <small class='website-rights'>Commerce.js © 2020</small>
+                    <small class='website-rights'>台東觀光民宿 © 2020</small>
                     <div class='social-icons'>
                         <Link
                             class='social-icon-link facebook'
