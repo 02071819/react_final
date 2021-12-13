@@ -36,7 +36,7 @@ function Cards() {
               path=''
             />
             <CardItem
-              src='images/伯朗大道.jpeg'
+              src='images/伯朗大道.jpg'
               text='時而散發金黃色光芒的道路，被譽為是一條「翠綠的天堂路」'
               label='伯朗大道'
               path=''
