@@ -32,7 +32,7 @@ const Navbar = ({ totalItems }) => {
         <div>
             <AppBar position="fixed" className={classes.appBar} color="inherit">
                 <Toolbar>
-                    <Typography component={Link} to="/home" variant="h6" className={classes.title} color="inherit" onClick={closeMobileMenu}>
+                    <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit" onClick={closeMobileMenu}>
                         {/* <img src={logo} alt="Commerce.js" height="25px" className={classes.image} /> */}
                         Commerce.js
                     </Typography>
