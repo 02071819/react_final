@@ -5,40 +5,40 @@ import CardItem from './CardItem';
 function Cards() {
   return (
     <div className='cards'>
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>探索台東景點</h1>
       <div className='cards__container'>
         <div className='cards__wrapper'>
           <ul className='cards__items'>
-            <CardItem
-              src='images/img-9.jpg'
-              text='Explore the hidden waterfall deep inside the Amazon Jungle'
-              label='Adventure'
+          <CardItem
+              src='images/火車.jpeg'
+              text='【台東太麻里景點】多良車站 全台灣最美車站！'
+              label='多良車站'
               path=''
             />
             <CardItem
-              src='images/img-2.jpg'
-              text='Travel through the Islands of Bali in a Private Cruise'
-              label='Luxury'
+              src='images/3-1.jpeg'
+              text='”台東光點 點亮在地音樂與手創市集”'
+              label='鐵花村'
               path=''
             />
           </ul>
           <ul className='cards__items'>
             <CardItem
-              src='images/img-3.jpg'
-              text='Set Sail in the Atlantic Ocean visiting Uncharted Waters'
-              label='Mystery'
+              src='images/栗松溫泉.jpeg'
+              text='【台東旅遊】白煙裊裊，山谷間藏如翡翠般的靜謐時光'
+              label='栗松溫泉'
               path=''
             />
             <CardItem
-              src='images/img-4.jpg'
-              text='Experience Football on Top of the Himilayan Mountains'
-              label='Adventure'
+              src='images/熱氣球.png'
+              text='「睇見台灣 從台東開始」'
+              label='鹿野高台'
               path=''
             />
             <CardItem
-              src='images/img-8.jpg'
-              text='Ride through the Sahara Desert on a guided camel tour'
-              label='Adrenaline'
+              src='images/伯朗大道.jpeg'
+              text='時而散發金黃色光芒的道路，被譽為是一條「翠綠的天堂路」'
+              label='伯朗大道'
               path=''
             />
           </ul>
