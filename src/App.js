@@ -70,7 +70,7 @@ const App = () => {
             <Home />
           </Route>
 
-          <Route exact path="/">
+          <Route exact path="/products">
             <Products products={products} onAddToCart={handleAddToCart} />
           </Route>
 
