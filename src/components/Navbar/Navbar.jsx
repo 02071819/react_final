@@ -34,7 +34,7 @@ const Navbar = ({ totalItems }) => {
                 <Toolbar>
                     <Typography component={Link} to="/" variant="h6" className={classes.title} color="inherit" onClick={closeMobileMenu}>
                         {/* <img src={logo} alt="Commerce.js" height="25px" className={classes.image} /> */}
-                        Commerce.js
+                        台東民宿觀光旅遊網
                     </Typography>
 
                     <div className='menu-icon' onClick={handleClick}>
